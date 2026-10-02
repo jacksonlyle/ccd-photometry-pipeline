@@ -1,0 +1,12 @@
+[project]
+name = "ccd-photometry-pipeline"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "astroalign>=2.6.2",
+    "astropy>=8.0.1",
+    "astroquery>=0.4.11",
+    "matplotlib>=3.11.2",
+    "numpy>=2.4.6",
+    "photutils>=3.0.0",
+]
