@@ -63,7 +63,7 @@ python sed_fitting.py        # power-law fit and 2500 Å interpolation
 [astrometry.net](https://nova.astrometry.net):
 
 1. Upload a `*_stack.fits` file from the data reduction pipeline (solved frames are already included in this repo)
-2. Set a scale hint — these frames are 2.82″/pixel (0.94″/pixel native, 3×3 binned).
+2. Set a scale hint — these frames are 0.87″/pixel.
 3. Download the "new-image.fits" result, which is your frame with WCS keywords added.
 4. Save it in the same dir as the stack.fits frames
 
